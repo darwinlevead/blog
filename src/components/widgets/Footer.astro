@@ -4,57 +4,43 @@ import { getHomePermalink, getRelativeLink } from '~/utils/permalinks';
 
 const links = [
 	{
-		title: 'Product',
+		title: 'Mis Servicios',
 		items: [
-			{ title: 'Features', href: '#' },
-			{ title: 'Security', href: '#' },
-			{ title: 'Team', href: '#' },
-			{ title: 'Enterprise', href: '#' },
-			{ title: 'Customer stories', href: '#' },
-			{ title: 'Pricing', href: '#' },
-			{ title: 'Resources', href: '#' },
+			{ title: 'Marketing', href: '#' },
+			{ title: 'SEO', href: '#' },
+			{ title: 'Diseño', href: '#' },
+			{ title: 'Recursos', href: '#' },
 		],
 	},
 	{
-		title: 'Platform',
+		title: 'Portafolio',
 		items: [
-			{ title: 'Developer API', href: '#' },
-			{ title: 'Partners', href: '#' },
-			{ title: 'Atom', href: '#' },
-			{ title: 'Electron', href: '#' },
-			{ title: 'AstroWind Desktop', href: '#' },
+			{ title: 'Patrocinadores', href: '#' },
 		],
 	},
 	{
-		title: 'Support',
+		title: 'Contactame',
 		items: [
-			{ title: 'Docs', href: '#' },
-			{ title: 'Community Forum', href: '#' },
-			{ title: 'Professional Services', href: '#' },
-			{ title: 'Skills', href: '#' },
-			{ title: 'Status', href: '#' },
+			{ title: 'Twitter', href: 'https://twitter.com/darwinlevead' },
+			{ title: 'Contact', href: '#' },
 		],
 	},
 	{
-		title: 'Company',
+		title: 'Pagina',
 		items: [
-			{ title: 'About', href: '#' },
+			{ title: 'Sobre mi', href: '#' },
 			{ title: 'Blog', href: '#' },
-			{ title: 'Careers', href: '#' },
-			{ title: 'Press', href: '#' },
-			{ title: 'Inclusion', href: '#' },
-			{ title: 'Social Impact', href: '#' },
-			{ title: 'Shop', href: '#' },
+			{ title: 'Tienda', href: '#' },
 		],
 	},
 ];
 
 const social = [
-	{ label: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-	{ label: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-	{ label: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+	{ label: 'Twitter', icon: 'tabler:brand-twitter', href: 'https://twitter.com/darwinlevead' },
+	{ label: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/darwinlevead' },
+	{ label: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://facebook.com/darwinlevead' },
 	{ label: 'RSS', icon: 'tabler:rss', href: getRelativeLink('/rss.xml') },
-	{ label: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+	{ label: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/darwinlevead' },
 ];
 ---
 
@@ -63,7 +49,7 @@ const social = [
 		<div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
 			<div class="col-span-12 lg:col-span-4">
 				<div class="mb-2">
-					<a class="inline-block font-bold text-xl" href={getHomePermalink()}>AstroWind</a>
+					<a class="inline-block font-bold text-xl" href={getHomePermalink()}>Darwin Levead</a>
 				</div>
 				<div class="text-sm text-gray-600">
 					<a
@@ -116,11 +102,7 @@ const social = [
 			</ul>
 
 			<div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
-				<span
-					class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"
-				>
-				</span>
-				Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> ·
+				Hola  <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://twitter.com"> 🙂❤️</a> ·
 				All rights reserved.
 			</div>
 		</div>
