@@ -1,6 +1,6 @@
 ---
 publishDate: 'Dec 15 2022'
-title: 'Que es el Growth Marketing?'
+title: '¿Que es el Growth Marketing?'
 description: 'Un enfoque estratégico que se centra en el crecimiento del negocio a través de la identificación y la explotación de oportunidades de crecimiento.'
 image: '~/assets/images/growth1.jpg'
 tags: [growth, marketing, digital]
